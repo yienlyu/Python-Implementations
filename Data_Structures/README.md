@@ -1,10 +1,10 @@
-# Implementation of dictionary, list, and tuple
+# Implementation of Data Structures, Lambda, and Filter
 ```input data format: <user_name> <user_id> <click_timestamp> <product_id> <sale>```
 
 ## Description
 - "server.py" would read and store the data inputed. The data is stored in the dictionary format, with string <user_id> as key, 
 and a list of tuple (click\_timestamp, product\_id) as value.
-
+- Also, I used `lambda` and `filter` in some functions.
 - There are a few operations:
 
 	- ```count\_sales()```: count and print the information of the product's sales  
